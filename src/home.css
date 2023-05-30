@@ -1,0 +1,492 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+/* navbar  */
+
+.header_section {
+    background-color: #2599FB;
+}
+
+.navbar {
+    width: 100%;
+    overflow: auto;
+
+}
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0px 20px;
+}
+
+.nav-links {
+    margin-left: auto;
+    text-transform: uppercase;
+}
+
+.navbar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #ffffff;
+}
+
+.nav-links i {
+    display: block;
+    margin: auto;
+    font-size: 30px;
+    padding-bottom: 11px;
+}
+
+.fa-home {
+    color: #2599FB;
+}
+
+.home {
+    color: #2599FB !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+
+
+}
+
+.nav-btns {
+    background-color: #2599FB;
+    border-color: #ffffff !important;
+    padding: 5px 20px;
+    margin: 0px 10px !important;
+    color: #ffffff;
+
+    border-radius: 12px;
+    margin: 20px 0px;
+}
+
+/* navbar end */
+
+.card-para {
+    background-color: rgb(0, 174, 255);
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-weight: 600;
+
+}
+
+.carousel_heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.card {
+    width: 250px;
+    margin-top: 30px;
+    border-radius: 10px;
+
+
+}
+
+.product--image {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 200px;
+}
+
+.react-multiple-carousel__arrow {
+    height: 100px;
+    background-color: blue !;
+    /* border-radius: none; */
+}
+
+/* hustle start   */
+
+.Hustle {
+    background-color: white;
+    height: 450px;
+
+}
+
+.hustle-heading {
+    margin-top: 50px;
+    line-height: 60px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+}
+
+.hustle-heading p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.hustle-heading-2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    margin-bottom: 20px;
+
+}
+
+.play-box {
+    border-radius: 10px;
+}
+
+.play-box img {
+    width: 250px;
+}
+
+.app-box img {
+    width: 250px;
+}
+
+.app-box {
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.hustle-btn {
+    width: 250px;
+    height: 70px;
+    background-color: rgb(0, 174, 255);
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* hustle end */
+
+/* Laura d  */
+.laura-section {
+    height: auto;
+}
+
+.laura-child-1 {
+
+    height: 250px;
+    background-color: rgb(0, 174, 255);
+}
+
+.laura-child-2 {
+
+    height: 250px;
+    background-color: rgb(0, 174, 255);
+    margin-top: 10px;
+}
+
+.laura-child-3 {
+
+    height: 250px;
+    background-color: rgb(0, 174, 255);
+    margin-top: 10px;
+}
+
+.buyer {
+    width: 100px;
+    height: 90px;
+    background-color: bisque;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    margin-top: 50px;
+}
+
+.laura-head {
+    margin-top: 50px;
+    margin-left: 50px;
+    color: white;
+    font-size: 23px;
+}
+
+.laura-para {
+    font-size: 14px;
+    margin-left: 50px;
+    color: white;
+
+}
+
+.laura_section {
+    justify-content: space-around !important;
+}
+
+.laura_details {
+    text-align: initial;
+}
+
+.laura_details h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.laura_details p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.laura-para-2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+    text-align: start;
+    margin-top: 30px;
+
+}
+
+.customer-head {
+    margin-top: 180px;
+    text-align: start;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+
+}
+
+.laura_section h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 5px;
+    text-align: initial;
+    color: #ffffff;
+}
+
+/* service provider */
+
+.service_provider_heading h2 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 64px;
+}
+
+.tell_us h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+}
+
+.tell_us p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.compare_offers h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+}
+
+.compare_offers p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.compare_offers {
+    padding-left: 25px;
+}
+
+.hire_service h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+}
+
+.hire_service p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* hero section */
+
+.hero_section_heading h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 64px;
+}
+
+.searchbar {
+    width: 100%;
+    height: 92px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    box-shadow: 4px 4px 4px 4px #f7f7f7;
+
+
+}
+
+.search_icon_content {
+    width: 250px;
+}
+
+.search_icon_content i {
+    color: #2599FB;
+    display: block;
+    margin-top: 7px;
+    margin-left: auto;
+}
+
+.search_icon_content {
+    margin-top: 20px;
+}
+
+.search_icon_content span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.54);
+
+
+}
+
+.location_icon i {
+    text-align: end;
+}
+
+.location_icon {
+    border-left: 1px solid rgba(0, 0, 0, 0.54);
+}
+
+.location_heading span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px !important;
+    color: rgba(0, 0, 0, 0.54);
+    margin-top: 2px;
+}
+
+.location_heading {
+    margin-top: 3px;
+}
+
+.search_button button {
+    background-color: #2599FB;
+    border-color: #ffffff !important;
+    padding: 5px 20px;
+    margin: 0px 10px !important;
+    color: #ffffff;
+    border-radius: 12px;
+
+}
+
+.search_button {
+    margin-top: 20px;
+}
+
+/* best service provider */
+.best_service_provider_section h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.deans_img img {
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.deans_food {
+    background-color: #2599FB;
+    color: #ffffff;
+}
+
+.icons_stars {
+    color: yellow;
+}
+
+.deans_border {
+    border-right: 1px solid #ffffff;
+}
+
+/* why choose us */
+.top_quality_section {
+    height: 446px;
+    width: 620px;
+    background: rgba(217, 217, 217, 0.52);
+    border-radius: 23px;
+
+}
+
+.top_quality_content img {
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.top_quality_content h5 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.top_quality_content p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+.best_service_content h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 30px;
+    text-align: initial;
+    color: #000000;
+
+}
+.best_service_content p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px; 
+    color: #000000;
+
+}
+
+/* footer section */
+
+.footer_section{
+    background-color: #2599FB;
+    height: auto;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+.footer_links a{
+   margin: 0px 20px;
+   text-decoration: none;
+   color: #ffffff;
+
+}
+.footer_links {
+     margin-top: 20px;
+}
