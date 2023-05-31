@@ -44,6 +44,7 @@ const Home = () => {
                             <button className='nav-btns'>
                                 Sign in
                             </button>
+                            
                         </div>
 
                     </div>
@@ -314,7 +315,7 @@ const Home = () => {
                             <div className='container'>
                                 <div className='row laura_section' style={{ justifyContent: "space-around" }}>
                                     <h4>BUYER</h4>
-                                    <div className='col-lg-4 buyer'>
+                                    <div className='col-lg-4 hex'>
 
                                         <img src="./images/face.jpeg" className='img-fluid' alt="" />
                                     </div>
@@ -335,7 +336,9 @@ const Home = () => {
                             <div className='container'>
                                 <div className='row laura_section' style={{ justifyContent: "space-around" }}>
                                     <h4>BUYER</h4>
-                                    <div className='col-lg-4 buyer'></div>
+                                    <div className='col-lg-4 hex'>
+                                        <img src="./images/face.jpeg" className='img-fluid' alt="" />
+                                    </div>
                                     <div className='col-lg-4'>
                                         <div className='laura_details'>
                                             <h1 className='laura-head'>Laura D</h1>
@@ -353,7 +356,9 @@ const Home = () => {
                             <div className='container'>
                                 <div className='row laura_section' style={{ justifyContent: "space-around" }}>
                                     <h4>BUYER</h4>
-                                    <div className='col-lg-4 buyer'></div>
+                                    <div className='col-lg-4 hex'>
+                                    <img src="./images/face.jpeg" className='img-fluid' alt="" />
+                                    </div>
                                     <div className='col-lg-4'>
                                         <div className='laura_details'>
                                             <h1 className='laura-head'>Laura D</h1>
@@ -368,13 +373,13 @@ const Home = () => {
                         </div>
                     </div>
                     <div className='col-lg-5'>
-                        <h1 className='customer-head'>Over 100,000 customers and service providers use StarOfService to HustleBrodge.</h1>
+                        <h1 className='customer-head'>Over <b>100,000</b> customers and service  providers <br/> use StarOfService to <br/> HustleBrodge.</h1>
                     </div>
                 </div>
             </div>
             {/* Why Choose us */}
             <div className='container my-5'>
-                <h1 className='my-5'>Why Choose Us?</h1>
+                <h1 className='my-5 choose_us_heading'>Why Choose Us?</h1>
                 <div className='row'>
                     <div className='col-6'>
                    <div className='row'>
@@ -393,7 +398,7 @@ const Home = () => {
                     <img src="./images/img3.png" alt="" />
                     </div>
                     <div className='col-6 my-5 best_service_content'>
-                    <h1> Best Service</h1>
+                    <h1> Verified Expert</h1>
                      <p>We Provide the best Service</p>
                     </div>
                    
@@ -404,7 +409,7 @@ const Home = () => {
                     <img src="./images/img13.png" alt="" />
                     </div>
                     <div className='col-6 my-5 best_service_content'>
-                    <h1> Best Service</h1>
+                    <h1> Service Variety</h1>
                      <p>We Provide the best Service</p>
                     </div>
                    
@@ -460,8 +465,8 @@ const Home = () => {
                         <a href=""> Privacy Policy </a>
                         <a href=""> Content Guidline </a>
                     </div>
-                    <div>
-                        <img src="./images/logo-icon.png" alt="" />
+                    <div className='mt-3'>
+                        <img src="./images/Vector.png" alt="" />
                     </div>
 
                 </div>
